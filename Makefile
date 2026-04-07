@@ -1,4 +1,4 @@
-NAME = libasm.a
+NAME = libasm_zOs.a
 
 SRCS = ft_strlen.s ft_strcpy.s ft_strcmp.s
 OBJDIR = obj
