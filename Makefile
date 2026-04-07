@@ -4,7 +4,7 @@ SRCS = ft_strlen.s ft_strcpy.s ft_strcmp.s
 OBJDIR = obj
 OBJS = $(addprefix $(OBJDIR)/, $(SRCS:.s=.o))
 
-NASM_FORMAT = elf64
+NASM_FORMAT = elf32
 
 all: $(OBJDIR) $(NAME)
 
